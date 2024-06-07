@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right top, #9337ab, #d12c82, #e94f57, #e37e36, #c9a933),url('./relaxed-young-caucasian-brunette-girl-enjoys-listening-her-favorite-song-with-eyes-closed-studio-harmony-concept.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+
+.input-field{
+    width:60%;
+    background:#fff;
+    height:78vh;
+    margin-left:20%;
+    margin-top:6%;
+    position:absolute;
+}
+.car-head{
+    font-family:'Poppins',sans-serif;
+    font-size:25px;
+    margin-top:3%;
+    margin-left:2%;
+}
+label{
+    margin-left:4%;
+    margin-top:4%;
+    font-size:16px;
+    font-family:'poppins',sans-serif;
+    
+}
+.input-sub-field{
+    width:40%;
+    height:6vh;
+    margin-left:3%;
+    margin-top:1%;
+    margin-bottom:2%;
+    opacity:50%;
+    border:3px solid #000;
+}
+.card-type{
+    width:15%;
+    height:4vh;
+    background:#FC8A2B;
+    font-family:'Source Code Pro',sans-serif;
+    margin-left:4%;
+    margin-top:2%;
+    border:none;
+    color:#ffff;
+    font-weight:800;
+    font-size:15px;
+    margin-bottom:2%;
+}
+.security label{
+    font-size: 13px;
+    font-family:'Source Code Pro';
+    font-weight:800;
+}
+.security{
+    margin-left:-2%;
+    margin-top:1%;
+}
+.input-sub-field1{
+    height:4vh;
+    opacity:50%;
+    border:3px solid #000;
+}
+
+.right-content{
+    position:relative;
+}
+.vis-img{
+    width:200px;
+    position:absolute;
+    margin-top:-30%;
+    margin-left:60%;
+}
+
+.second-head{
+    background:#9337ab;
+    padding:15px 20px;
+    color:#fff;
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    width:160px;
+    position:absolute;
+    margin-top:-40%;
+    margin-left:60%;
+    
+}
+.add{
+    color:#fff;
+    background:#e37e36;
+    padding:10px 10px;
+    font-family:'Poppins',sans-serif;
+    border:none;
+    width:140px;
+    position:absolute;
+    margin-left:60%;
+    margin-top:-20%;
+    
+}
+.f-btn{
+    background:#FFA539;
+    padding:10px;
+    width:400px;
+    position:absolute;
+    margin-top:3%;
+    margin-left:25%;
+    color:#fff;
+    font-family:'Poppins',sans-serif;
+    text-align:center;
+}

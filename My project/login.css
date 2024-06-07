@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style-type:none;
+    font-family:'Source Code Pro',sans-serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,2,45,1) 0%, rgba(139,19,145,1) 0%, rgba(175,0,255,0.45451684091605393) 100%),url('./jbl/pexels-gaulle-8420319.jpg');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+#login-form{
+    width:40%;
+    height:50%;
+    margin-left:25%;
+    margin-top:10%;
+   
+    position:absolute;
+
+}
+.heading{
+    position:absolute;
+    color:#fff;
+    text-align:center;
+    padding:-10% 0;
+    margin-left:18%;
+    margin-bottom:2%;
+}
+.first-box{
+    padding: 12% 20%;
+    position:relative;
+}
+.first-box label{
+    margin:-2% 0;
+    position:absolute;
+    font-size:23px;
+    color:#fff;
+    font-weight:600;
+}
+.User_name{
+    width:50%;
+    position:absolute;
+    height:7vh;
+    border-radius:10px;
+    border:none;
+    padding-left:6px;
+}
+.second-box{
+    padding: 5% 20%;
+    position:relative;
+}
+.second-box label{
+    margin:-2% 0;
+    position:absolute;
+    font-size:23px;
+    color:#fff;
+    font-weight:600;
+}
+.password{
+    width:50%;
+    position:absolute;
+    height:7vh;
+    border-radius:7px;
+    border:none;
+    padding-left:6px;
+}
+.sign-in-btn{
+    margin:7% 21%;
+    position:absolute;
+    padding:15px 25px;
+    background:#FC8A2B;
+    color:#fff;
+    font-weight:600;
+    border:none;
+    border-radius:6px;
+}
+.sign{color:#fff;
+z-index:9;
+font-size:15px;
+position:absolute;
+font-weight:800;
+margin-left:20%;
+margin-top:17%;
+}
+.forgot{
+   color:#fff;
+   font-size:15px;
+   font-weight:800;
+   margin-top:17%;
+   position:absolute;
+   margin-left:70%;
+}

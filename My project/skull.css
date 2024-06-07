@@ -1,0 +1,270 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+}
+:root{
+    --red-light:#ff8e15f3;
+}
+header{
+    width:100%;
+    height:15vh;
+    background-color:var(--red-light);
+
+}
+header img{
+    width:200px;
+    height:8vh;
+    margin-top:2%;
+    margin-left:2%;
+}
+
+.header-box{
+    display:flex;
+    width:100%;
+    position:relative;
+  
+    
+}
+.header-box .navbar ul{
+    display:flex;
+    width:100%;
+    float:right;
+    margin-left:6%;
+    position:absolute;
+    
+}
+.navbar ul li{
+    padding: 30px 40px;
+}
+.navbar ul li a{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:#fff;
+    cursor: pointer;
+}
+.just-content{
+    width:100%;
+    
+    margin-left:0%;
+    
+    font-family:'Source Code Pro',sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(243,100,0,0.5)),url('./skullcandy/crush.jpg');
+    background-repeat:no-repeat;
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+   
+}
+.sub-head{
+    margin-left:3%;
+    background:linear-gradient(#D3933C,#DBC431);
+    padding:15px 20px;
+    font-size:40px;
+    font-family:'Source Code Pro',sans-serif;
+    border-top-right-radius:76%;
+    width:40%;
+    margin-top:3%;
+    color:#fff;
+    animation:find 4s infinite;
+}
+@keyframes find{
+    0%{
+        transform:translateX(0.5);
+    }
+    50%{
+        transform:translateY(-1.0);
+        color:#000;
+    }
+    75%{
+        transform:skewY(0.5);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+
+.product1-row{
+    width:100%;
+    display:grid;
+    grid-template-columns:800px 800px;
+}
+.product-img{
+    width:80px;
+    animation:skull 6s infinite;
+    transition:all 5s ease-in-out;
+}
+@keyframes skull{
+    0%{
+        transform:rotate(20deg);
+    }
+    50%{
+        transform:rotate(360deg);
+
+    }
+    100%{
+        transform:rotate(-180deg);
+    }
+}
+.product-col1{
+    margin-left:7%;
+    margin-top:3%;
+    
+    position:relative;
+}
+.description{
+    font-family:'Poppins',sans-serif;
+    font-size:26px;
+    font-weight:400;
+    margin-left:4%;
+    margin-top:2%;
+}
+.product-price{
+    font-family:'Source Code Pro',sans-serif;
+    font-family:25px;
+    font-weight:800;
+    margin-left:3%;
+    margin-top:1%;
+    padding:8px 1px;
+}
+.cart-link{
+    background:#C31FD5;
+    font-family:'Source Code Pro',sans-serif;
+    font-size:20px;
+    color:#fff;
+    font-weight:800;
+    padding:4px 6px;
+    margin-top:3%;
+   
+}
+.shop-link{
+    background:#FC8A2B;
+    margin-left:3%;
+    color:#fff;
+    padding:4px 6px;
+    font-size:20px;
+    font-family:'Source Code Pro';
+}
+.product2-row{
+    display:grid;
+    grid-template-columns: 800px 800px;
+    margin-left:7%;
+    font-family:'Source Code Pro',sans-serif;
+    position:relative;
+    margin-top:10%;
+}
+.product-col2{
+    margin-left:2%;
+    margin-top:10%;
+}
+.offer_img{
+    width:80px;
+    margin-bottom:-1;
+    animation: rolling 6s infinite;
+}
+@keyframes rolling{
+    0%{
+        transform:rotate(45deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+
+    100%{
+        transform:rotate(-180deg);
+    }
+}
+.product3-row{
+    display:grid;
+    grid-template-columns:700px 700px;
+    width:100%;
+    position:relative;
+    margin-top:3%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0),rgba(218, 33, 228, 0.5));
+    border-radius: 15px;
+    border-top: 2px solid rgba( 255, 255, 255, 1 );
+    border-left: 2px solid rgba( 255, 255, 255, 1 );
+    
+}
+.product-col3{
+    margin-left:15%;
+    margin-top:20%;
+  
+}
+.head-band{
+    text-align:center;
+    font-family:'Anton',sans-serif;
+    margin-top:4%;
+    margin-left:42%;
+    position:absolute;
+
+}
+.description{
+    margin-left:4%;
+}
+footer{
+    width:100%;
+    background:#000;;
+    height:50vh;
+    display:flex;
+    padding-left:10%;
+    margin-top:3%;
+}
+.foot-head{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:800;
+  
+    margin-bottom:23px;
+    color:#fff;
+}
+.foot-content{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:17px;
+    
+    
+}
+.company li{
+    margin-top:15px;
+}
+.company li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li{
+    margin-top:15px;
+}
+.Follow img{
+    margin-right:5px;
+    
+}
+.email .text-email{
+    width:73%;
+    height:5vh;
+    border:none;
+    opacity:75%;
+    padding-left:4px;
+    color:#fff;
+}
+.email .submit{
+    width:30%;
+    height:5vh;
+    border:none;
+    background-color:#990d58;
+    color:#fff;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:10px;
+}

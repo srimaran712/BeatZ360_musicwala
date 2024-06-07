@@ -1,0 +1,249 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+}
+:root{
+    --red-light:#FF3315;
+}
+header{
+    width:100%;
+    height:15vh;
+    background:linear-gradient(#D3933C,#DBC431);
+
+}
+header img{
+    width:200px;
+    height:8vh;
+    margin-top:2%;
+    margin-left:2%;
+}
+
+.header-box{
+    display:flex;
+    width:100%;
+    margin-left:16%;
+  
+    
+}
+.header-box .navbar ul{
+    display:flex;
+    width:100%;
+    float:right;
+    
+}
+.sub-head{
+    margin-left:3%;
+    background:linear-gradient(#D3933C,#DBC431);
+    padding:15px 20px;
+    font-size:40px;
+    font-family:'Source Code Pro',sans-serif;
+    border-top-right-radius:76%;
+    width:40%;
+    margin-top:3%;
+    color:#fff;
+    animation:find 4s infinite;
+}
+@keyframes find{
+    0%{
+        transform:translateX(0.5);
+    }
+    50%{
+        transform:translateY(-1.0);
+        color:#000;
+    }
+    75%{
+        transform:skewY(0.5);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+.navbar ul li{
+    padding: 30px 40px;
+}
+.navbar ul li a{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:#fff;
+    cursor: pointer;
+}
+.just-content{
+    width:100%;
+    height:25vh;
+   
+  
+    font-family:'Source Code Pro',sans-serif;
+    background-image:linear-gradient(rgba(219, 125, 30, 0.6),rgba(220,140,36,0.7)),url('./boat images/gaming-headphones-with-mic-2-min.jpg');
+    background-size:cover;
+    height:90vh;
+    background-position:center;
+   
+}
+.just-content .top-head{
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:40px;
+    
+}
+.top-para{
+    font-size:20px;
+    font-weight:600;
+}
+.product1-row{
+    display:grid;
+    grid-template-columns:600px 600px 600px;
+    margin-left:4%;
+    margin-right:3%;
+    font-family:'Source Code Pro',sans-serif;
+    margin-top:3%;
+    background:linear-gradient(#D3933C,#DBC431);
+    width:100%;
+   
+
+}
+.cart-link{
+    background:#C31FD5;
+    color:#fff;
+    padding:5px 10px;
+    margin-top:4%;
+    margin-left:2%;
+}
+.product-price{
+    padding:20px 10px;
+    font-size:23px;
+    margin-left:2%;
+    
+}
+.description{
+    margin-left:2%;
+    font-weight:800;
+}
+.product-col1 img{
+    width:280px;
+    height:30vh;
+}
+.product-col1{
+    margin-top:6%;
+    margin-left:3%;
+}
+.product2-row{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-left:7%;
+    font-family:'Source Code Pro',sans-serif;
+    position:relative;
+    margin-top:10%;
+}
+.product-col2{
+    margin-left:2%;
+margin-top:10%;}
+   
+.circle6{
+    width:100%;
+    height:50vh;
+    clip-path:circle(50% at bottom right);
+    background-color:#C31FD5;
+    position:absolute;
+    z-index:-8;
+}
+.offer_img{
+    width:80px;
+    margin-bottom:-1;
+    animation: rolling 6s infinite;
+}
+@keyframes rolling{
+    0%{
+        transform:rotate(45deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+
+    100%{
+        transform:rotate(-180deg);
+    }
+}
+.shop-link{
+    margin-left:5%;
+    background:#FC8A2B;
+    color:#fff;
+    padding:6px 8px;
+    font-weight:800;
+    animation:fall 4s infinite;
+    transition:all 6s ease-in-out;
+}
+@keyframes fall{
+    0%{
+        transform:rotate(20deg);
+    }
+    50%{
+        transform:translateY(0.5);
+    }
+    100%{
+        transform:translateX(0.5);
+    }
+}
+footer{
+    width:100%;
+    background:#000;;
+    height:50vh;
+    display:flex;
+    padding-left:10%;
+    margin-top:3%;
+}
+.foot-head{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:800;
+  
+    margin-bottom:23px;
+    color:#fff;
+}
+.foot-content{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:17px;
+    
+    
+}
+.company li{
+    margin-top:15px;
+}
+.company li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li{
+    margin-top:15px;
+}
+.Follow img{
+    margin-right:5px;
+    
+}
+.email .text-email{
+    width:73%;
+    height:5vh;
+    border:none;
+    opacity:75%;
+    padding-left:4px;
+    color:#fff;
+}
+.email .submit{
+    width:30%;
+    height:5vh;
+    border:none;
+    background-color:#990d58;
+    color:#fff;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:10px;
+}

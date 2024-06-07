@@ -1,0 +1,257 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+
+}
+.container{
+    width:100%;
+    height:130vh;
+    
+    position:relative;
+    
+    
+   
+   
+}
+.speare{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background:linear-gradient(#D3933c,#DBC431);
+    clip-path:circle(800px at top right);
+    z-index:9;
+}
+.crop{
+    width:60%;
+    height:100vh;
+    opacity:60%;
+    border-bottom-right-radius:50%;
+    z-index:-1;
+    position:absolute;
+  
+}
+
+.box{
+    width:100%;
+    height:100vh;
+    float:right;
+    margin-left:40%;
+    position:absolute;
+    z-index:10;
+    clear:both;
+    position:relative;
+    
+   
+    
+}
+.box img{
+    width:80%;
+    height:80vh;
+    margin-left:20%;
+    
+}
+.row-1{
+    display:flex;
+    width:100%;
+    height:70vh;
+    z-index:10;
+    margin-top:5%;
+   
+  
+   
+
+}
+.sub-img{
+    width:30%;
+    height:30vh;
+    
+}
+
+
+
+.top-head{
+    font-family:'Dynapuff',sans-serif;
+    font-size:30px;
+    text-align:center;
+    color:white;
+    margin-top:-6%;
+    letter-spacing:1%;
+    margin-left:46%;
+}
+.price{
+    text-align:center;
+    color:white;
+    font-family:'Source Code Pro',sans-serif;
+    margin-top:3%;
+    font-size:25px;
+    font-weight:600;
+    margin-left:49%;
+}
+.Add-Cart{
+    background:#C31FD5;
+    font-family:'Roboto Condensed',sans-serif;
+    padding:8px 8px;
+    color:#fff;
+    font-size:24px;
+    margin-top:4%;
+    margin-left:40%;
+    position:absolute;
+    
+}
+.shop-link{
+    background:#FC8A2B;
+    font-family:'Roboto Condensed',sans-serif;
+    padding:8px 8px;
+    color:#fff;
+    font-size:24px;
+    margin-top:4%;
+    margin-left:50%;
+    position:absolute;
+    
+    
+}
+.linka{
+    margin-left:-30%;
+
+}
+.linkb{
+    margin-left:-15%;
+
+}
+.top2-head{
+    font-family:'Anton',sans-serif;
+    font-size:45px;
+    margin-top:-5%;
+    margin-left:-1%;
+}
+.price2{
+    font-family:'Source Code Pro',sans-serif;
+}
+
+.sec-container{
+    width:100%;
+    height:130vh;
+    position:relative;
+   
+}
+.box1{
+    width:60%;
+    height:80%;
+    float:right;
+    z-index:8;
+    margin-top:10%;
+    
+}
+.box1 img{
+    margin-left:15%;
+  
+}
+.spare{
+    width:100%;
+    height:100vh;
+    background:#FC8A2B;
+    position:absolute;
+    clip-path:circle(800px at top right);
+    z-index:-2;
+}
+.sub-head{
+    margin-left:3%;
+    background:linear-gradient(#D3933C,#DBC431);
+    padding:15px 20px;
+    font-size:40px;
+    font-family:'Source Code Pro',sans-serif;
+    border-top-right-radius:100%;
+    width:40%;
+    margin-top:6%;
+    color:#fff;
+    animation:find 4s infinite;
+    position:absolute;
+}
+@keyframes find{
+    0%{
+        transform:translateX(0.5);
+    }
+    50%{
+        transform:translateY(-1.0);
+        color:#000;
+    }
+    75%{
+        transform:skewY(0.5);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+.row-2{
+    display:flex;
+}
+.top2-head{
+    margin-top:-40%;
+    margin-left:-20%;
+}
+
+
+
+footer{
+    width:100%;
+    background:#000;;
+    height:50vh;
+    display:flex;
+    padding-left:10%;
+    margin-top:3%;
+}
+.foot-head{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:800;
+  
+    margin-bottom:23px;
+    color:#fff;
+}
+.foot-content{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:17px;
+    
+    
+}
+.company li{
+    margin-top:15px;
+}
+.company li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li{
+    margin-top:15px;
+}
+.Follow img{
+    margin-right:5px;
+    
+}
+.email .text-email{
+    width:73%;
+    height:5vh;
+    border:none;
+    opacity:75%;
+    padding-left:4px;
+    color:#fff;
+}
+.email .submit{
+    width:30%;
+    height:5vh;
+    border:none;
+    background-color:#990d58;
+    color:#fff;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:10px;
+}

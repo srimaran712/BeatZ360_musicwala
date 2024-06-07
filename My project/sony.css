@@ -1,0 +1,294 @@
+*{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    text-decoration:none;
+
+}
+header{
+    width:100%;
+    height:15vh;
+    background-color:#000;
+
+}
+header img{
+    width:200px;
+    height:8vh;
+    margin-top:2%;
+    margin-left:2%;
+}
+
+.header-box{
+    display:flex;
+    width:100%;
+  
+    
+}
+.header-box .navbar ul{
+    display:flex;
+    width:100%;
+    float:right;
+    
+}
+.navbar ul li{
+    padding: 30px 40px;
+}
+.navbar ul li a{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:#fff;
+    cursor: pointer;
+}
+.just-content{
+    width:100%;
+    height:25vh;
+    position:relative;
+   
+ 
+    font-family:'Source Code Pro',sans-serif;
+    background-image:linear-gradient(rgba(120, 82, 12, 0.6),rgba(120,98,24,0.6)),url('./sony images/background image 1.jpg');
+    background-size:cover;
+    height:80vh;
+}
+.just-content .top-head{
+    margin-top:7%;
+    margin-bottom:2%;
+    font-size:40px;
+    color:#fff;
+    position:absolute;
+    margin-left:5%;
+    
+}
+.top-para{
+    font-size:25px;
+    font-weight:600;
+    position:absolute;
+    margin-left:5%;
+    margin-top:15%;
+    color:#fff;
+}
+.sub-head{
+    margin-left:3%;
+    background:linear-gradient(#D3933C,#DBC431);
+    padding:15px 20px;
+    font-size:40px;
+    font-family:'Source Code Pro',sans-serif;
+    border-top-right-radius:100%;
+    width:40%;
+    margin-top:3%;
+    color:#fff;
+    animation:find 4s infinite;
+}
+@keyframes find{
+    0%{
+        transform:translateX(0.5);
+    }
+    50%{
+        transform:translateY(-1.0);
+        color:#000;
+    }
+    75%{
+        transform:skewY(0.5);
+    }
+    100%{
+        transform:rotate(10deg);
+    }
+}
+
+.product1-row{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-left:2%;
+    margin-right:2%;
+    font-family:'Source Code Pro',sans-serif;
+}
+.cart-link{
+    background:#C31FD5;
+    color:#fff;
+    padding:5px 10px;
+    margin-top:4%;
+    margin-left:2%;
+}
+.product-price{
+    padding:20px 10px;
+    font-size:23px;
+    margin-left:2%;
+    
+}
+.description{
+    margin-left:2%;
+    font-weight:800;
+}
+.product2-row{
+    display:grid;
+    grid-template-columns: 600px 600px;
+    margin-left:10%;
+    margin-top:5%;
+    position:relative;
+    font-family:'Source Code Pro',sans-serif;
+}
+.space{
+    width:100%;
+    height:200vh;
+    position:absolute;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 25% 100%);
+    background:#FC8A2B;
+    z-index:-10;
+}
+.product3-row{
+    display:grid;
+    grid-template-columns: 470px 470px 470px;
+    font-family:'Source Code Pro',sans-serif;
+    margin-left:4%;
+    
+   
+}
+footer{
+    width:100%;
+    background:#000;;
+    height:50vh;
+    display:flex;
+    padding-left:10%;
+    margin-top:3%;
+}
+.foot-head{
+    font-family:'Source Code Pro',sans-serif;
+    font-weight:800;
+  
+    margin-bottom:23px;
+    color:#fff;
+}
+.foot-content{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:17px;
+    
+    
+}
+.company li{
+    margin-top:15px;
+}
+.company li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li a{
+    color:#fff;
+    font-family:'Source Code Pro',sans-serif;
+   
+}
+.customer-support li{
+    margin-top:15px;
+}
+.Follow img{
+    margin-right:5px;
+    
+}
+.email .text-email{
+    width:73%;
+    height:5vh;
+    border:none;
+    opacity:75%;
+    padding-left:4px;
+    color:#fff;
+}
+.email .submit{
+    width:30%;
+    height:5vh;
+    border:none;
+    background-color:#990d58;
+    color:#fff;
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:10px;
+}
+.shop-link{
+    background:#FC8A2B;
+    margin-left:3%;
+    color:#fff;
+    padding:4px 6px;
+    font-size:20px;
+    font-family:'Source Code Pro';
+}
+.product-row{
+    width:100%;
+    height:100vh;
+    position:relative;
+
+
+}
+.spear{
+    width:100%;
+    height:100vh;
+    position:absolute;
+    clip-path: circle(900px at top right);
+    background:#FC8A2B;
+    z-index:-9;
+}
+.product-row img{
+    float:right;
+    width:70%;
+    margin-left:2%;
+}
+.des-text{
+    margin-top:10%;
+    position:absolute;
+    margin-left:10%;
+    font-size:45px;
+    font-family:'Anton', sans-serif;
+    filter: drop-shadow(15px);
+}
+.cost{
+    margin-top:20%;
+    margin-left:10%;
+    font-size:40px;
+    font-family:'Source Code Pro',sans-serif;
+    position:absolute;
+}
+.one-link{
+    font-size:25px;
+    padding:25px 30px;
+    position:absolute;
+    margin-top:30%;
+    border-radius:15px;
+}
+.two-link{
+    font-size:25px;
+    padding:25px 30px;
+    position:absolute;
+    margin-top:30%;
+    margin-left:15%;
+    position:absolute;
+    border-radius:15px;
+}
+.star1{
+    width:10px;
+    height:20px;
+    
+   
+.star2{
+    width:10px;
+    height:20px;
+    
+   
+}
+.star3{
+    width:10px;
+    height:20px;
+   
+   
+}
+.star4{
+    width:10px;
+    height:20px;
+    
+}
+.star5{
+    width:10px;
+    height:20px;
+    
+    
+}

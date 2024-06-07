@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+   
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bad+Script&family=DynaPuff&family=Inter:wght@300;400;600;700&family=Josefin+Sans&family=Mouse+Memoirs&family=Poller+One&family=Poppins:wght@400;500;600&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="news.css">
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="header-text">
+                Top News
+            </div>
+        </header>
+       
+            <div class="swiper">
+                 
+                <div class="swiper-wrapper">
+                
+                  <div class="swiper-slide first1"><h1 class="head-text">walkmp3rson is an mp3 player like sony never made</h1><a href="https://hackaday.com/2022/09/20/walkmp3rson-is-an-mp3-player-like-sony-never-made/" class="column1-news one">Read More</a></div>
+         
+                 <div class="swiper-slide  first"><h1 class="head-text">Sony new WS413 Waterproof walkman review</h1> <a href="https://www.techradar.com/reviews/sony-nw-ws413-waterproof-walkman" class="column1-news two">Read more</a></div>
+                 <div class="swiper-slide  second"><h1 class="head-text"> Cross fade 3 Wireless Headphones Sound Superb and look so cool</h1><a href="https://www.forbes.com/sites/marksparrow/2022/08/01/v-modas-crossfade-3-wireless-headphones-sound-superb-and-look-so-cool/" class="column1-news three">Read more</a></div>
+                 <div class="swiper-slide  third"><h1 class="head-text">The Ultimate centre speaker mcintoshs XCs15k weighs 80 kg boast 40 drivers</h1><a href="https://www.whathifi.com/news/the-ultimate-centre-speaker-mcintoshs-xcs15k-weighs-80kg-boasts-43-drivers" class="column1-news four">Read more</a></div>
+                 <div class="swiper-slide  fourth"><h1 class="head-text">Sony WH-1000XM5 Review</h1><a href="https://indianexpress.com/article/technology/tech-reviews/sony-wh-1000xm5-review-create-your-own-bubble-8163506/" class="column1-news five">Read more</a></div>
+                 <div class="swiper-slide fifth"><h1 class="head-text">Focal utopia Bloom audio Review</h1><a href="https://bloomaudio.com/blogs/articles/focal-utopia-2022-review" class="column1-news six">Read more</a></div>
+                 <div class="swiper-slide  sixth"><h1 class="head-text">9 Great headphones deals for the OCtober</h1> <a href="https://www.wired.com/story/headphone-deals-september-2022/" class="column1-news seven">Read more</a></div>
+                 <div class="swiper-slide  seventh"><h1 class="head-text">Bose Quiet Comfort quietly launch with similar Specs to the QC 45</h1><a href="https://www.gsmarena.com/bose_quietcomfort_se_quietly_launch_with_similar_specs_to_the_qc_45-news-55770.php" class="column1-news eight">Read more</a></div>
+                 <div class="swiper-slide eight"> <h1 class="head-text">Wings Phantom 550 Gaming TWS earbuds with up to 45h playtime, Bluetooth 5.3 launched in India at an introductory price of Rs. 999 ($13)</h1><a href="https://www.gizmochina.com/2022/09/15/wings-phantom-550-gaming-tws-earbuds-with-up-to-45h-playtime-bluetooth-5-3-launched-in-india-at-an-introductory-price-of-rs-999-13/" class="column1-news nine">Read more</a>
+                 </div>
+                 <div class="swiper-slide nineth"><h2 class="head-text">Sony’s SRS-XV900 pumps its party speaker lineup to the next level</h2><a href="https://www.digitaltrends.com/home-theater/sony-srs-xv900-party-speaker/" class="column1-news ten">Read more</a></div>
+
+
+                  ...
+                </div>
+                
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+
+        </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+            const swiper = new Swiper('.swiper', {
+               
+               autoplay:{
+                delay:5000,
+                disableOnInteraction:false,
+               },
+                loop: true,
+              
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+              
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              
+               
+              });</script>
+    </body>
